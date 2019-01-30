@@ -1,5 +1,5 @@
 # the address of the controlled service
-iop_msgs_fkie/JausAddress addr_control
+fkie_iop_msgs/JausAddress addr_control
 
 # the uri of the remote service
 string uri

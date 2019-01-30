@@ -10,7 +10,7 @@ string device_designation
 string classification
 
 # values of the measurement
-iop_msgs_fkie/MeasurementValue[] values
+fkie_iop_msgs/MeasurementValue[] values
 
 # position where the measurement was taken
 # Latitude [degrees]. Positive is north of equator; negative is south.

@@ -14,4 +14,4 @@ uint16 system_type
 
 string name
 
-iop_msgs_fkie/JausAddress address
+fkie_iop_msgs/JausAddress address

@@ -11,7 +11,7 @@ uint8 authority_code
 string explanation
 
 # the address of the component to control.
-iop_msgs_fkie/JausAddress component
+fkie_iop_msgs/JausAddress component
 
 # the address of the ocu which send the request. For own requests it will be filled by HandoffController.
-iop_msgs_fkie/JausAddress ocu
+fkie_iop_msgs/JausAddress ocu

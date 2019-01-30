@@ -10,4 +10,4 @@ uint8 SERVER_TYPE_SCP      = 7
 uint8 server_type
 string server_url
 uint16 resource_id
-iop_msgs_fkie/JausAddress address
+fkie_iop_msgs/JausAddress address

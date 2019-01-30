@@ -14,4 +14,4 @@ uint8 code
 uint8 request_id
 
 # the address of component with EnhancendAccessControl which sent a request for this response
-iop_msgs_fkie/JausAddress component
+fkie_iop_msgs/JausAddress component

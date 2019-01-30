@@ -2,14 +2,14 @@
 # At minimum a valid subsystem id must be defined. If component id is 0, it means all components 
 # should be controled. 
 # 0.0.0 is an invalid id.
-iop_msgs_fkie/JausAddress address
+fkie_iop_msgs/JausAddress address
 
 # the name of the subsystem, node or component (depend on the specified address)
 string name
 
 # This command is for OCU client with given JAUS Address. It is usefull, if more then one
 # node can control available services (e.g. two PTU's)
-iop_msgs_fkie/JausAddress ocu_client
+fkie_iop_msgs/JausAddress ocu_client
 
 # OWNER                    255      'root# user concept, analogous to the root user of an OS.
 # PRIMARY_OPERATOR         205-254  Only client role with mobility control. Can control/monitor any Component on the platform.

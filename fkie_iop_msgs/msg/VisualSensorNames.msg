@@ -1,0 +1,1 @@
+fkie_iop_msgs/VisualSensorName[] names
