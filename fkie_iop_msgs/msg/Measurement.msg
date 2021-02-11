@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 # custom name of the detecting device for differentiation
 string device_name
