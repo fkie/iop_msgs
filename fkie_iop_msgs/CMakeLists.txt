@@ -38,7 +38,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/VisualSensorNames.msg"
   "srv/QueryByAddr.srv"
   "srv/QueryIdentification.srv"
+  DEPENDENCIES std_msgs
 )
 
-ament_export_dependencies(std_msgs)
+ament_export_dependencies(rosidl_default_runtime std_msgs)
 ament_package()
