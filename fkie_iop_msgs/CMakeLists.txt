@@ -21,6 +21,7 @@ add_message_files(
   Node.msg
   OcuCmd.msg
   OcuCmdEntry.msg
+  OcuControlReport.msg
   OcuFeedback.msg
   OcuServiceInfo.msg
   Service.msg
