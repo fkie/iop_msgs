@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Node.msg"
   "msg/OcuCmd.msg"
   "msg/OcuCmdEntry.msg"
+  "msg/OcuControlReport.msg"
   "msg/OcuFeedback.msg"
   "msg/OcuServiceInfo.msg"
   "msg/Service.msg"
